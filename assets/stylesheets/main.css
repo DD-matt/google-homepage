@@ -47,6 +47,61 @@ table {
 	border-spacing: 0;
 }
 
-#googlelogo {
-    
+/*
+	=====================
+
+	Grid
+
+	=====================
+
+*/
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
+
+
+#googlelogo {
+	display: inline-block;
+    margin: 20px;
+	position: fixed;
+	top: 25.5%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+	padding: 0px;
+}
+
+.search {
+	display: inline-block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.search input[type=text] {
+	padding: 0px;
+	border: 0.5px solid rgba(117, 117, 117, 0.450);
+	border-radius: 5px;
+	font-size: 12px;
+  }
+
+  .search:hover {
+	box-shadow: 0 0 11px rgba(33,33,33,.2);
+  }
+
+.container {
+	margin: 10px auto;
+	padding-left: 30px;
+    padding-right: 30px;
+	width: 960px;
+  }

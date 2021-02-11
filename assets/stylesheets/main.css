@@ -65,7 +65,10 @@ table {
           box-sizing: border-box;
 }
 
-
+.material-icons.md-dark { 
+	color: rgba(0, 0, 0, 0.36); 
+	font-size: 20.5px;
+}
 
 #googlelogo {
 	display: inline-block;
@@ -88,6 +91,28 @@ table {
 	
 }
 
+.talk {
+	display: inline-block;
+	position: fixed;
+	top: 55%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+	margin: 0px;
+	padding: 0px 8px;
+	
+}
+
+.examine {
+	display: inline-block;
+	position: fixed;
+	top: 55%;
+	left: 5%;
+	transform: translate(-50%, -50%);
+	margin: 0px;
+	padding: 0px 13px 0px 0px;
+	
+}
+
 .search input[type=text] {
 	padding: 1px 40px 1px 52px;
 	border: 0.03px solid rgba(99, 99, 99, 0.15);
@@ -102,6 +127,59 @@ table {
 	border-radius: 30px;
 	box-shadow: 0 0 6px rgba(33,33,33,.2);
   }
+
+.topbar {
+	display: flex;
+	align-items: center;
+	padding: 6px;
+	height: 60px;
+	flex-shrink: 0;
+	box-sizing: border-box;
+}  
+
+.leftsection:first-of-type {
+	margin-left: 15px;
+}  
+
+.leftsection {
+	display: inline-block;
+	padding: 5px;
+	margin: 0px 5px;
+	color: #222;
+}
+
+.rightsection_box {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-grow: 1;
+	height: 48px;
+}
+
+.rightsection:first-of-type {
+	color: #fff;
+	cursor: pointer;
+	padding: 9px 23px;
+	margin: 5.5px 8px;
+	background: #1a73e8;
+	font-size: 14px;
+	letter-spacing: .25px;
+	line-height: 16px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.rightsection.object {
+	padding: 0px 12px;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	opacity: 1;
+}
+
+
   
 /*.container {
 	margin: 10px auto;

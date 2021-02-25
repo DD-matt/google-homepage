@@ -70,6 +70,12 @@ table {
 	font-size: 20.5px;
 }
 
+.material-icons { 
+	color: rgba(0, 0, 0, 0.50); 
+	font-size: 40.5px;
+	margin: 12px 8px
+}
+
 #googlelogo {
 	display: inline-block;
     margin: 20px;
@@ -171,14 +177,49 @@ table {
 	display: inline-block;
 }
 
+.rightsection {
+	cursor: pointer;
+	margin: 15px 12px;
+	font-size: 13px;
+	letter-spacing: .30px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+
 .rightsection.object {
 	padding: 0px 12px;
 	display: inline-block;
 	height: 40px;
 	width: 40px;
 	opacity: 1;
+	margin: 8px 5.5px;
 }
 
+.bottombar {
+	top: 93%;
+	position: fixed;
+	display: flex;
+	height: 90px;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 0px 20px;
+	background:rgba(155, 147, 147, 0.116)
+}
+
+.bottombar_special {
+	justify-content: center;
+	padding: 15px;
+	font: 12px;
+}
+
+.bottombar_common {
+	padding: 15px;
+	font: 12px;
+	display: block;
+	white-space: nowrap;
+}
 
   
 /*.container {
